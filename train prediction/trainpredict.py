@@ -9,7 +9,7 @@ st.title('All Indian Trains')
 st.write('This app provides an overview of all Indian trains, including train names, starting and ending stations, and the number of trains between each starting and ending station. Use the filters and search bar to find specific trains or stations.')
 
 # Load the dataset into a pandas DataFrame
-df = pd.read_csv("E:\\6thsem\\data mining\\All_Indian_Trains.csv")
+df = pd.read_csv("./All_Indian_Trains.csv")
 
 # Print the first five rows of the DataFrame
 st.header('Train Data')
